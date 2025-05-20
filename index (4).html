@@ -1,0 +1,266 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ГОВНОБОГ: ОФИЦИАЛЬНЫЙ САЙТ</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #000;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: lime;
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="0" y="16" font-size="16">💩</text></svg>'), auto;
+        }
+
+        #container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #title {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 5em;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+            animation: glitch 0.5s infinite;
+            z-index: 1000;
+        }
+
+        @keyframes glitch {
+            0% { text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff; }
+            25% { text-shadow: 0 0 15px #00ff00, 0 0 25px #ff0000; }
+            50% { text-shadow: 0 0 20px #0000ff, 0 0 30px #ffff00; }
+            75% { text-shadow: 0 0 25px #ffffff, 0 0 35px #ff00ff; }
+            100% { text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff; }
+        }
+
+        #main-content {
+            position: absolute;
+            top: 150px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            font-size: 1.5em;
+            line-height: 1.5;
+            text-align: center;
+            z-index: 999;
+        }
+
+        .crabs {
+            position: absolute;
+            font-size: 2em;
+            animation: float 5s infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-50px) rotate(180deg); }
+            100% { transform: translateY(0) rotate(360deg); }
+        }
+
+        #anus {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 10em;
+            animation: pulse 1s infinite;
+            z-index: 1001;
+        }
+
+        @keyframes pulse {
+            0% { transform: translateX(-50%) scale(1); }
+            50% { transform: translateX(-50%) scale(1.5); }
+            100% { transform: translateX(-50%) scale(1); }
+        }
+
+        #milk-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 20px;
+            background: linear-gradient(90deg, #ff00ff, #00ffff, #ffff00, #ff00ff);
+            background-size: 400% 400%;
+            animation: milk-flow 3s infinite linear;
+            z-index: 1002;
+        }
+
+        @keyframes milk-flow {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+
+        #counter {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 1.5em;
+            color: white;
+            z-index: 1003;
+        }
+
+        .particle {
+            position: absolute;
+            font-size: 1.5em;
+            animation: fly 10s linear infinite;
+            opacity: 0.7;
+        }
+
+        @keyframes fly {
+            0% { transform: translate(0, 0) rotate(0deg); opacity: 0.7; }
+            100% { transform: translate(100vw, -100vh) rotate(720deg); opacity: 0; }
+        }
+
+        #music-toggle {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 10px;
+            background: #ff00ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1004;
+        }
+
+        #secret-button {
+            position: absolute;
+            bottom: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 15px 30px;
+            background: linear-gradient(45deg, #ff00ff, #00ffff);
+            color: black;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            z-index: 1005;
+            animation: rainbow 2s infinite;
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+    </style>
+    <style>body { margin: 0; }</style></head>
+<body>
+<div id="container">
+    <div id="milk-bar"></div>
+    <h1 id="title">ГОВНОБОГ 3000</h1>
+
+    <div id="main-content">
+        <p>ДОБРО ПОЖАЛОВАТЬ В ОФИЦИАЛЬНУЮ РЕЗИДЕНЦИЮ ГОВНОБОГА!</p>
+        <p>ТЫ — ИЗБРАННЫЙ, КОТОРЫЙ УВИДЕЛ ЭТОТ САЙТ СРЕДИ 10 000 000 АЙПИ!</p>
+        <p>ЗДЕСЬ ТЫ УЗНАЕШЬ:</p>
+        <ul style="list-style-type: none; padding: 0;">
+            <li>► КАК СТАТЬ СПЕРМОБАКОМ НА КОЛЁСИКАХ</li>
+            <li>► ГДЕ КУПИТЬ МОЛОКО МОЕЙ ГРУДИ (8-Й РАЗМЕР)</li>
+            <li>► КАК ВЫЖИТЬ ПОСЛЕ ВСТРЕЧИ С МОИМ АНУСОМ</li>
+        </ul>
+        <p>НАШ ДЕВИЗ: <span style="color: #ff00ff;">"ЗИГ ХАААААААААЙЛЬ ВО ВРЕМЯ ОРГАЗМА!"</span></p>
+    </div>
+
+    <div id="anus">🕳️</div>
+    <button id="secret-button">НАЖМИ МЕНЯ, ЕСЛИ НЕ СТРАШНО</button>
+    <button id="music-toggle">ВКЛ/ВЫКЛ МУЗЫКУ</button>
+    <div id="counter">ПОСЕТИТЕЛЕЙ: <span id="visitor-count">62</span></div>
+    <div class="crabs" style="left: 47.5983vw; top: 96.6504vh; animation-duration: 7.69551s;">🦀</div><div class="crabs" style="left: 66.5715vw; top: 57.1574vh; animation-duration: 7.63668s;">🦀</div><div class="crabs" style="left: 92.4953vw; top: 40.7109vh; animation-duration: 14.922s;">🦀</div><div class="crabs" style="left: 66.7136vw; top: 38.0639vh; animation-duration: 5.74447s;">🦀</div><div class="crabs" style="left: 56.4958vw; top: 47.3772vh; animation-duration: 14.5104s;">🦀</div><div class="crabs" style="left: 61.8367vw; top: 3.50163vh; animation-duration: 12.6052s;">🦀</div><div class="crabs" style="left: 36.7443vw; top: 83.9151vh; animation-duration: 12.8617s;">🦀</div><div class="crabs" style="left: 50.3501vw; top: 92.4896vh; animation-duration: 14.1989s;">🦀</div><div class="crabs" style="left: 52.3673vw; top: 93.0761vh; animation-duration: 10.5571s;">🦀</div><div class="crabs" style="left: 11.7606vw; top: 48.0933vh; animation-duration: 12.0182s;">🦀</div><div class="crabs" style="left: 44.2223vw; top: 8.15981vh; animation-duration: 6.9879s;">🦀</div><div class="crabs" style="left: 58.9969vw; top: 4.4366vh; animation-duration: 11.2221s;">🦀</div><div class="crabs" style="left: 73.2336vw; top: 84.548vh; animation-duration: 11.9466s;">🦀</div><div class="crabs" style="left: 95.9343vw; top: 96.899vh; animation-duration: 11.3181s;">🦀</div><div class="crabs" style="left: 38.606vw; top: 55.5814vh; animation-duration: 9.37227s;">🦀</div><div class="crabs" style="left: 26.654vw; top: 5.42312vh; animation-duration: 13.2131s;">🦀</div><div class="crabs" style="left: 8.73036vw; top: 68.4602vh; animation-duration: 10.6421s;">🦀</div><div class="crabs" style="left: 82.4781vw; top: 41.5196vh; animation-duration: 7.52116s;">🦀</div><div class="crabs" style="left: 88.148vw; top: 61.4537vh; animation-duration: 7.19076s;">🦀</div><div class="crabs" style="left: 96.694vw; top: 47.7852vh; animation-duration: 12.9599s;">🦀</div><div class="particle" style="left: 69.9326vw; top: 75.282vh; animation-duration: 16.6125s;">🍑</div><div class="particle" style="left: 35.0124vw; top: 28.236vh; animation-duration: 19.3959s;">🤮</div><div class="particle" style="left: 86.2565vw; top: 60.44vh; animation-duration: 6.07659s;">🍑</div><div class="particle" style="left: 20.4071vw; top: 62.8811vh; animation-duration: 13.7526s;">🔫</div><div class="particle" style="left: 26.9032vw; top: 35.6645vh; animation-duration: 14.2334s;">🤮</div><div class="particle" style="left: 34.8567vw; top: 53.832vh; animation-duration: 17.3372s;">🍆</div><div class="particle" style="left: 67.8018vw; top: 92.9328vh; animation-duration: 7.64869s;">👁️</div><div class="particle" style="left: 27.1591vw; top: 11.9262vh; animation-duration: 16.4805s;">🍆</div><div class="particle" style="left: 68.2292vw; top: 30.4924vh; animation-duration: 5.33771s;">💩</div><div class="particle" style="left: 34.1553vw; top: 56.9094vh; animation-duration: 17.0273s;">🍆</div><div class="particle" style="left: 67.8507vw; top: 15.4962vh; animation-duration: 8.37254s;">🦵</div><div class="particle" style="left: 82.7781vw; top: 46.4483vh; animation-duration: 5.27833s;">🍆</div><div class="particle" style="left: 64.8964vw; top: 64.718vh; animation-duration: 13.7497s;">👅</div><div class="particle" style="left: 96.2064vw; top: 41.4063vh; animation-duration: 10.3628s;">💩</div><div class="particle" style="left: 22.6421vw; top: 43.1143vh; animation-duration: 6.257s;">🦵</div><div class="particle" style="left: 45.2509vw; top: 66.9534vh; animation-duration: 7.79916s;">💩</div><div class="particle" style="left: 42.8881vw; top: 45.4999vh; animation-duration: 18.0868s;">👁️</div><div class="particle" style="left: 62.3765vw; top: 16.2357vh; animation-duration: 7.47179s;">👁️</div><div class="particle" style="left: 31.5447vw; top: 22.1979vh; animation-duration: 19.6511s;">🤮</div><div class="particle" style="left: 50.7937vw; top: 85.1519vh; animation-duration: 6.82988s;">👁️</div><div class="particle" style="left: 24.7486vw; top: 69.8104vh; animation-duration: 6.62765s;">👁️</div><div class="particle" style="left: 73.805vw; top: 73.4606vh; animation-duration: 7.56914s;">🔫</div><div class="particle" style="left: 29.0876vw; top: 93.9139vh; animation-duration: 19.0885s;">🦵</div><div class="particle" style="left: 26.6952vw; top: 91.0288vh; animation-duration: 10.5738s;">🔫</div><div class="particle" style="left: 1.50197vw; top: 48.8637vh; animation-duration: 15.448s;">🍆</div><div class="particle" style="left: 31.2908vw; top: 39.9826vh; animation-duration: 9.88996s;">🔫</div><div class="particle" style="left: 18.4435vw; top: 68.3327vh; animation-duration: 6.93177s;">👁️</div><div class="particle" style="left: 67.8377vw; top: 72.8416vh; animation-duration: 10.5248s;">👅</div><div class="particle" style="left: 21.6357vw; top: 18.287vh; animation-duration: 16.9535s;">🦵</div><div class="particle" style="left: 98.4854vw; top: 34.9841vh; animation-duration: 18.5931s;">🦵</div><div class="particle" style="left: 45.2237vw; top: 16.2852vh; animation-duration: 17.7389s;">👁️</div><div class="particle" style="left: 50.2133vw; top: 79.5692vh; animation-duration: 16.8674s;">👅</div><div class="particle" style="left: 8.14327vw; top: 15.5021vh; animation-duration: 17.6826s;">👅</div><div class="particle" style="left: 92.1084vw; top: 65.6367vh; animation-duration: 17.1502s;">🍑</div><div class="particle" style="left: 11.8451vw; top: 78.0208vh; animation-duration: 19.333s;">🦵</div><div class="particle" style="left: 87.5705vw; top: 82.7109vh; animation-duration: 13.3872s;">🤮</div><div class="particle" style="left: 90.6238vw; top: 33.7198vh; animation-duration: 10.2125s;">🦵</div><div class="particle" style="left: 73.0795vw; top: 84.5229vh; animation-duration: 6.24964s;">👁️</div><div class="particle" style="left: 5.95395vw; top: 27.2204vh; animation-duration: 19.5383s;">🤮</div><div class="particle" style="left: 74.7744vw; top: 11.5669vh; animation-duration: 10.2957s;">🍑</div><div class="particle" style="left: 70.5107vw; top: 44.7502vh; animation-duration: 7.39482s;">🍑</div><div class="particle" style="left: 44.0908vw; top: 48.35vh; animation-duration: 15.9377s;">🦵</div><div class="particle" style="left: 27.0267vw; top: 12.0798vh; animation-duration: 15.1739s;">🤮</div><div class="particle" style="left: 86.4139vw; top: 14.8863vh; animation-duration: 15.7817s;">👅</div><div class="particle" style="left: 11.9786vw; top: 75.3695vh; animation-duration: 9.30784s;">💩</div><div class="particle" style="left: 27.3899vw; top: 23.3143vh; animation-duration: 17.9453s;">🍑</div><div class="particle" style="left: 24.5277vw; top: 40.9788vh; animation-duration: 18.5602s;">🍑</div><div class="particle" style="left: 62.6365vw; top: 20.2205vh; animation-duration: 16.476s;">🔫</div><div class="particle" style="left: 86.4091vw; top: 81.416vh; animation-duration: 16.8807s;">🤮</div><div class="particle" style="left: 73.3316vw; top: 37.0553vh; animation-duration: 13.0161s;">👁️</div></div>
+
+<audio id="bg-music" loop="">
+    <source src="https://www.myinstants.com/media/sounds/rasputin-meme-version.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    // Генерация крабов
+    for (let i = 0; i < 20; i++) {
+        const crab = document.createElement('div');
+        crab.className = 'crabs';
+        crab.textContent = '🦀';
+        crab.style.left = `${Math.random() * 100}vw`;
+        crab.style.top = `${Math.random() * 100}vh`;
+        crab.style.animationDuration = `${5 + Math.random() * 10}s`;
+        document.getElementById('container').appendChild(crab);
+    }
+
+    // Генерация частиц
+    function createParticles() {
+        const particles = ['💩', '🍑', '👁️', '🍆', '🤮', '🔫', '👅', '🦵'];
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+        particle.textContent = particles[Math.floor(Math.random() * particles.length)];
+        particle.style.left = `${Math.random() * 100}vw`;
+        particle.style.top = `${Math.random() * 100}vh`;
+        particle.style.animationDuration = `${5 + Math.random() * 15}s`;
+        document.getElementById('container').appendChild(particle);
+
+        setTimeout(() => {
+            particle.remove();
+        }, 15000);
+    }
+
+    setInterval(createParticles, 300);
+
+    // Счётчик посетителей (рандомный)
+    setInterval(() => {
+        const count = document.getElementById('visitor-count');
+        let current = parseInt(count.textContent);
+        current += Math.floor(Math.random() * 10);
+        count.textContent = current.toLocaleString();
+    }, 1000);
+
+    // Музыка
+    const music = document.getElementById('bg-music');
+    const musicToggle = document.getElementById('music-toggle');
+
+    musicToggle.addEventListener('click', () => {
+        if (music.paused) {
+            music.play();
+            musicToggle.textContent = 'ВЫКЛ МУЗЫКУ';
+        } else {
+            music.pause();
+            musicToggle.textContent = 'ВКЛ МУЗЫКУ';
+        }
+    });
+
+    // Секретная кнопка
+    const secretButton = document.getElementById('secret-button');
+    secretButton.addEventListener('click', () => {
+        document.body.style.background = 'url("https://i.gifer.com/7VE.gif")';
+        document.body.style.backgroundSize = 'cover';
+        document.getElementById('title').textContent = 'ТЫ АКТИВИРОВАЛ РЕЖИМ ХУЙНИ!';
+        document.getElementById('anus').textContent = '💦';
+
+        // Создаём взрыв эмодзи
+        for (let i = 0; i < 100; i++) {
+            const explosion = document.createElement('div');
+            explosion.className = 'particle';
+            explosion.textContent = ['💥', '🔥', '🌈', '⚡'][Math.floor(Math.random() * 4)];
+            explosion.style.left = '50vw';
+            explosion.style.top = '50vh';
+            explosion.style.fontSize = `${Math.random() * 5 + 2}em`;
+            explosion.style.animationDuration = `${Math.random() * 3 + 1}s`;
+            document.getElementById('container').appendChild(explosion);
+
+            setTimeout(() => {
+                explosion.remove();
+            }, 4000);
+        }
+
+        // Включаем эпичную музыку
+        music.src = 'https://www.myinstants.com/media/sounds/unravel.mp3';
+        music.play();
+        musicToggle.textContent = 'ВЫКЛ МУЗЫКУ';
+
+        alert('ТЫ РАЗБЛОКИРОВАЛ СКРЫТЫЙ РЕЖИМ: "ПЕРДЁЖ ВСЕЛЕННОЙ"');
+    });
+</script>
+
+</body><div class="XTranslate" style="all: unset;"></div></html>
